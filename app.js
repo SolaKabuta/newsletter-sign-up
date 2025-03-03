@@ -28,3 +28,5 @@ document
     const email = encodeURIComponent(mail.value.trim());
     window.location.href = `success.html?mail=${email}`;
   });
+
+
