@@ -103,7 +103,10 @@ button:hover {
     background: lightseagreen; 
 }
 
-
+/* BANNER */
+.mobile-banner {
+    display: none;
+}
 
 /* Success message start */
 
@@ -150,3 +153,32 @@ footer {
 
 
 /* MEDIA QUERRIES */
+
+
+@media screen and (max-width: 798px) {
+    section {
+        display: block;
+    }
+    form {
+        flex-direction:column-reverse;
+        padding: 0 0 60px 0;
+        border-radius: 0;
+        height: 100vh;
+        min-width: 375px;
+    }
+    .sign-up {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .banner {
+        display: none;
+    }
+
+    .mobile-banner {
+        display: block;
+        width: 100%;
+    }
+    footer {
+        display: none;
+    }
+}

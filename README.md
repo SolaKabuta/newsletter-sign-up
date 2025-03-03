@@ -60,20 +60,20 @@ Users should be able to:
 
 ### What I learned
 
+- The Power of Regex in Email Validation
 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
+```javascript
+// Regex de validation email
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if (!emailRegex.test(mail.value.trim())) {
+        errorMessage.style.display = 'block';
+        mail.style.border = '1px solid hsl(4, 100%, 67%)';
+        mail.style.background = 'hsl(4, 100%, 97%)';
+        return; 
+    } 
 ```
 
 
@@ -84,16 +84,16 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Medium]([stackoverflow.com/](https://medium.com/@sketch.paintings/email-validation-with-javascript-regex-e1b40863ed23)) - This article helped me for the regex verification.
+- [ChatGPT](chatgpt.com/) - This helped me to display the mail input into the success message page
 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [portfolio](https://www.solakabuta.com)
+- Frontend Mentor - [@SolaKabuta](https://www.frontendmentor.io/profile/SolaKabuta)
+- Twitter - [@sola_kabuta](https://x.com/sola_kabuta)
 
 
 
