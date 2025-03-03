@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: hsl(235, 18%, 26%);
+  color: hsl(234, 29%, 20%);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul {
+    padding: 25px 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+
+section {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+/* FORM */
+
+form {
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    background: hsl(0, 0%, 100%);
+}
+
+.sign-up {
+    display: grid;
+    place-content: center;
+    width: 450px;
+}
+
+h1,
+label,
+#error-message,
+button {
+  font-weight: 700;
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+.mail-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail-address {
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+input {
+    padding: 15px;
+    width: 360px;
+    border: 1px solid hsl(0, 0%,58%);
+    border-radius: 5px;
+}
+
+#error-message {
+    display: none;
+    font-size: 10px;
+    color: hsl(4, 100%, 67%);
+}
+
+/* PLACEHOLDER */
+
+.mail-placeholder::placeholder {
+    color: hsl(4, 100%, 67%);
+}
+
+button {
+    color: white;
+    background: hsl(234, 29%, 20%);
+    padding: 15px;
+    width: 360px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    transition: 0.3s ease-in-out;
+    background: lightseagreen; 
+}
+
+
+
+/* Success message start */
+
+#success-msg {
+    display: block;
+    background: hsl(0, 0%, 100%);
+    height: 420px;
+    width: 450px;
+    padding: 40px;
+    border-radius: 20px;
+    img {
+        width: 10%;
+    }
+    button {
+        margin-top: 30px;
+    }
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.mail {
+    font-weight: 700;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

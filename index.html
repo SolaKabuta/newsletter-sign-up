@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <section>
+      <form id="registrationForm" action="success.html">
+        <div class="sign-up">
+          <h1>Stay updated!</h1>
+          <p>
+            Join 60,000+ product managers receiving monthly <br />
+            updates on:
+          </p>
+          <ul>
+            <li>
+              <img src="/assets/images/icon-list.svg" alt="" />
+              <p>Product discovery and building what matters</p>
+            </li>
+            <li>
+              <img src="/assets/images/icon-list.svg" alt="" />
+              <p>Measuring to ensure updates are a success</p>
+            </li>
+            <li>
+              <img src="/assets/images/icon-list.svg" alt="" />
+              <p>And much more!</p>
+            </li>
+          </ul>
+          <!-- MAIL INPUT -->
+          <div class="mail-input">
+            <label class="mail-address" for=""> Email address </label>
+            <p id="error-message">Valid email required</p>
+          </div>
+          <input id="mail" class="mail-placeholder" type="mail" name="mail" placeholder="email@company.com" /> 
+          <br />
+         <!-- SUBMIT BUTTON --> 
+          <button type="submit" id="submit-btn">Subscribe to monthly newsletter</button>
+        </div>
+        <div>
+          <img src="/assets/images/illustration-sign-up-desktop.svg" alt="" />
+        </div>
+      </form>
+    </section>
+
+   
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a>Sola Kabuta</a>.
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
